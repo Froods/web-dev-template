@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background-image: url("./images/restuarant.jpg"), linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4));
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* This keeps the image fixed during scroll */
+}
+
+header {
+    background-color: rgba(0,0,0,0.7);
+    padding: 24px;   
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+}
+
+nav button {
+    background: transparent;
+    color: white;
+    font-weight: lighter;
+    font-size: 1.2rem;
+}
+
+nav button:hover {
+    color: rgb(250, 37, 79);
+    cursor: pointer;
+}
+
+nav button:active {
+    color: rgb(250, 16, 63);
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+#content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh auto;
+    padding: 10vh;
+}
+
+#welcome-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 600px;
+    height: 380px;
+    background-color: white;
+    border-radius: 25px;
+    padding: 0 24px;
+    text-align: center;
+    box-shadow: 2px 2px 5px 2px rgba(0,0,0,0.1);
+}
+
+#menu-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 600px;
+    height: auto;
+    background-color: white;
+    border-radius: 25px;
+    padding: 0 24px;
+    text-align: center;
+    box-shadow: 2px 2px 5px 2px rgba(0,0,0,0.1);
+    padding: 24px;
+    gap: 18px;
+}
+
+.header-text {
+    margin-bottom: 10px;
+}
+
+#menu-box .header-text {
+    margin-bottom: 2px;
+}
+
+.welcome-text {
+    border-bottom: 2px solid rgb(80, 80, 80);
+    padding-bottom: 24px;
+    width: 70%;
+}
+
+.reservation {
+    margin-top: 24px;
+}
+
+.reservation-btn {
+    background-color: rgb(250, 37, 79);
+    color: white;
+    padding: 16px 24px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    border-radius: 12px;
+    margin-top: 12px;
+}
+
+.reservation-btn:hover {
+    background-color: rgb(250, 16, 63);
+    cursor: pointer;
+}
+
+.reservation-btn:active {
+    background-color: rgb(230, 15, 58);
+}
+
+img {
+    border-radius: 25px;
+    margin-bottom: 8px;
+}
+
+.food-header {
+    margin-bottom: 12px;
+}
+
+.food-text {
+    width: 400px;
+}
