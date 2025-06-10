@@ -1,7 +1,5 @@
 import "./styles.css";
-import { initHomepageContent, initMenuContent } from "./elementInits";
 
-const contentSection = document.querySelector("#content");
-
-
-initMenuContent(contentSection);
+if (process.env.NODE_ENV !== 'production') {
+    console.log('Looks like we are in development mode!');
+}
