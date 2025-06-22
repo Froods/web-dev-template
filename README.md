@@ -15,6 +15,16 @@ Instead of:
 npx webpack serve
 npx webpack
 
+npx eslint
+npx eslint --fix
+
+npx prettier --write
+
 Use:
 npm run start
 npm run build
+
+npm run lint
+npm run lint:fix
+
+npm run format
